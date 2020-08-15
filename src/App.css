@@ -44,3 +44,95 @@ input.form-control {
 .menu-names p{
   font-size:12px;
 }
+
+
+
+/*----------------------------------------------- home ------------------------------------------*/
+
+/* -------------header --------------------------- */
+
+.headers{
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #80808050;
+}
+
+.dropdown{
+  display:flex;
+}
+
+button.dropdown-toggle.btn.btn-secondary {
+  background:transparent;
+  color:black;
+  border-radius:30px;
+  border-color:#80808095;
+  margin-bottom:10px;
+}
+
+/*  for  section */
+.section{
+  min-height: max-content;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.card-content{
+  display:flex;
+  justify-content: space-around;
+}
+
+button.button-cart.btn.btn-secondary{
+  background-color: #ffa500;
+  border-color:#ffa500;
+  color:black;
+  border-radius:30px;
+}
+
+button.button-cart2.btn.btn-secondary{
+  background-color: #fff;
+  border-color:#ffa500;
+  color:black;
+  border-radius:30px;
+  font-weight: bold;
+}
+
+
+.stock span{
+  font-size: 11px;
+}
+
+
+.company-name-container{
+  width:90px;
+}
+
+.company-name{
+  font-size: 15px;
+  font-size-adjust: 0.58;
+}
+
+
+.value{
+  background-color:#f2f2f5;
+  height:44px;
+  padding:5px 10px 10px 10px;
+}
+
+button.cal-btn.btn.btn-secondary {
+  background-color:#fff;
+  color:black;
+  /* height:44px; */
+}
+
+/* for load more */
+
+button.load {
+  border-radius:30px;
+  background:transparent;
+  border: 1px solid #80808080;
+  width:1110px;
+  font-weight:bold;
+  padding:5px; 
+}
