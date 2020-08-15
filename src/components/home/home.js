@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import {
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-} from "reactstrap";
+
 import HomeBox from "./home-box";
+import UpContent from './upContent';
+import Headers from './headers';
 
 export default function Home() {
   const [product, setProduct] = useState([
@@ -45,30 +42,16 @@ export default function Home() {
     },
   ]);
 
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggle = () => setDropdownOpen((prevState) => !prevState);
 
   return (
     <React.Fragment>
       <section className="section bg-light home-half" id="home">
         <Container>
           <h3><strong>Recommended Products</strong></h3>
-          <Col lg={{ size: 12, offset: 0 }} className="mb-4 mt-4 headers">
-            <p className="text-muted">Selected Filters:</p>
-            <div className='dropdown'>
-            <p className="text-muted pr-3"> Sort by : </p>
-                <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-                <DropdownToggle caret>Popularity</DropdownToggle>
-                <DropdownMenu>
-                    <DropdownItem>Most Bought</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>New Product</DropdownItem>
-                </DropdownMenu>
-                </Dropdown>
-            </div>
-          </Col>
-          <Row></Row>
+            <Headers/>
+          <Row>
+            <UpContent/>
+          </Row>
           <Row>
             {product.map((prod) => (
               <HomeBox
