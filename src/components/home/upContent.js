@@ -12,6 +12,7 @@ export default function UpContent() {
                 <div className="card">
                     <div className="card-body card-content-up">
                         <div className='left-side-contents'>
+                            <p className='banner'>Premium Bestseller</p>
                             <img src="assests/images/logo-approved.png" alt="logo-approved" />
                         </div>
                         <div className='right-side-contents'>
@@ -55,6 +56,7 @@ export default function UpContent() {
             <div className="card">
                     <div className="card-body card-content-up">
                         <div className='left-side-contents'>
+                            <p className='banner'>Economy Bestseller</p>
                             <img src="assests/images/logo-approved.png" alt="logo-approved" />
                         </div>
                         <div className='right-side-contents'>
