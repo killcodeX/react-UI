@@ -130,6 +130,13 @@ button.button-cart.btn.btn-secondary{
   border-radius:30px;
 }
 
+button.button-cart3.btn.btn-secondary{
+  background-color: #ffa500;
+  border-color:#ffa500;
+  color:black;
+  border-radius:30px;
+}
+
 button.button-cart2.btn.btn-secondary{
   background-color: #fff;
   border-color:#ffa500;
@@ -166,12 +173,23 @@ button.cal-btn.btn.btn-secondary {
   /* height:44px; */
 }
 
+button.cal-btn2.btn.btn-secondary {
+  background-color:#fff;
+  color:black;
+  /* height:44px; */
+}
+
 .para{
   font-size: 12px;
 }
 
 .red{
   color: red;
+}
+
+.content-up{
+  display: flex;
+  /* justify-content: space-between; */
 }
 
 /* for load more */
@@ -194,8 +212,106 @@ button.load {
   }
 }
 
-@media(max-width:1100px){
+@media(max-width:480px){
   button.load {
     width:300px;
   }
+
+  img.pr-4.pt-2.product-img {
+    width:120px;
+  }
+
+  h5.company-name {
+      width:100px;
+      margin-left: 45px;
+  }
+  img.aprroved-img {
+    width:30px;
+    height:30px;
+  }
+  button.button-cart.btn.btn-secondary {
+    font-size:10px;
+  }
+
+  button.cal-btn.btn.btn-secondary {
+    padding:5px;
+  }
+
+  p.pl-4.para {
+    font-size:11px;
+  }
+
+  h5.company-name {
+    font-size:10px;
+  }
+  img.image-appr {
+    width:30px;
+    height:30px;
+    position:relative;
+    top:40px;
+    left:-30px;
+  }
+
+  button.button-cart3.btn.btn-secondary {
+    font-size:9px;
+    position:relative;
+    top:50px;
+    left:-30px;
+  }
+
+  p.suv {
+      font-size:10px;
+      position:relative;
+      left:20px;
+  }
+
+  .stock2 {
+      font-size:10px;
+      padding-left: 10px;
+      display:inline-flex;
+      position:relative;
+      left:25px;
+  }
+
+  p.price {
+      font-size:10px;
+      padding-left: 10px;
+      position:relative;
+      left:50px;
+  }
+
+  p.total {
+      font-size:10px;
+      padding-left: 10px;
+  }
+
+  button.cal-btn2.btn.btn-secondary {
+    padding:5px;
+    height:35px;
+ }
+ .value {
+  height: 32px;
+ }
+ .valueButton2 {
+     position:relative;
+     top:60px;
+     left:-40px;
+     display:inline-flex;
+ }
+
+  button.button-cart3.btn.btn-secondary {
+    font-size:9px;
+    position:relative;
+    top: 61px;
+    left: -50px;
+    width:90px;
+  }
+  button.button-cart2.btn.btn-secondary {
+    font-size:9px;
+    position:relative;
+    top: 61px;
+    left: -50px;
+    width:90px;
+  }
+  
 }

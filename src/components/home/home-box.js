@@ -24,33 +24,33 @@ export default function HomeBox(props) {
                 <u>{props.name}</u>
               </h5>
             </div>
-            <img src="assests/images/logo-approved.png" alt="logo-approved" />
-            <p>
+            <img className='image-appr' src="assests/images/logo-approved.png" alt="logo-approved" />
+            <p className='suv'>
               {props.type}
               <br />
               SUV
             </p>
-            <div className='stock'>
+            <div className='stock2'>
                 <p>Stock <span 
                 className={"badge badge-pill" + (props.stock == '✓' ? 'badge badge-pill badge-success': props.stock == '!'? 'badge badge-pill badge-warning' : 'badge badge-pill badge-danger')}
                 >{props.stock}</span></p>
                 <span className={props.stock == 'X' ? 'red': ''}><strong>{props.stock == '✓' ? '': props.stock == '!' ? '8 Tires left': 'Back 1 Week'}</strong></span>
             </div>
-            <p>Price <strong>{props.price}</strong></p>
-            <div className="valueButton">
-              <Button className="cal-btn" onClick={() => setAdd(add + 1)}>
+            <p className='price'>Price <strong>{props.price}</strong></p>
+            <div className="valueButton2">
+              <Button className="cal-btn2" onClick={() => setAdd(add + 1)}>
                 +
               </Button>
               <span className="value">{add}</span>
-              <Button className="cal-btn" onClick={() => setAdd(add - 1)}>
+              <Button className="cal-btn2" onClick={() => setAdd(add - 1)}>
                 -
               </Button>
             </div>
-            <p>
+            <p className='total'>
               Total <strong>{props.total}</strong>
             </p>
             <div className="cart">
-              <Button className={props.button == 'Notify Me!'? `button-cart2`: `button-cart`}>
+              <Button className={props.button == 'Notify Me!'? `button-cart2`: `button-cart3`}>
                 <i className={props.icon}></i> {props.button}
               </Button>
             </div>
