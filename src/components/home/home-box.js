@@ -34,7 +34,7 @@ export default function HomeBox(props) {
                 <p>Stock <span 
                 className={"badge badge-pill" + (props.stock == '✓' ? 'badge badge-pill badge-success': props.stock == '!'? 'badge badge-pill badge-warning' : 'badge badge-pill badge-danger')}
                 >{props.stock}</span></p>
-                <span><strong>{props.stock == '✓' ? '': props.stock == '!' ? '8 Tires left': 'Back 1 Week'}</strong></span>
+                <span className={props.stock == 'X' ? 'red': ''}><strong>{props.stock == '✓' ? '': props.stock == '!' ? '8 Tires left': 'Back 1 Week'}</strong></span>
             </div>
             <p>Price <strong>{props.price}</strong></p>
             <div className="valueButton">

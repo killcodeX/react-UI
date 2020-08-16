@@ -166,6 +166,14 @@ button.cal-btn.btn.btn-secondary {
   /* height:44px; */
 }
 
+.para{
+  font-size: 12px;
+}
+
+.red{
+  color: red;
+}
+
 /* for load more */
 
 button.load {

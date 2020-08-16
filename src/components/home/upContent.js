@@ -13,7 +13,7 @@ export default function UpContent() {
                     <div className="card-body card-content-up">
                         <div className='left-side-contents'>
                             <p className='banner'>Premium Bestseller</p>
-                            <img src="assests/images/logo-approved.png" alt="logo-approved" />
+                            <img className='pr-4 pt-2' src="assests/images/banner.png" alt="logo-approved" />
                         </div>
                         <div className='right-side-contents'>
                             <div className='right-side-contents-up'>
@@ -24,12 +24,12 @@ export default function UpContent() {
                             <div className='right-side-contents-down'>
                                 <div className='contents-up'>
                                     <img className="aprroved-img" src="assests/images/logo-approved.png" alt="logo-approved" />
-                                    <p className='pl-4'>205/55 R16 H<br/>SUV</p>
-                                    <div className='stock'>
+                                    <p className='pl-4 para'>205/55 R16 H<br/>SUV</p>
+                                    <div className='stock para'>
                                         <p className='pl-4'>Stock <span className='badge badge-pill badge-success'>✓</span></p>
                                         <p className='pt-1'>Price <strong>$ 340</strong></p>
                                     </div>
-                                    <p className='pl-4'> Total <strong>$ 1360</strong></p>
+                                    <p className='pl-4 para'> Total <strong>$ 1360</strong></p>
                                 </div>
                                 <div className='contents-down'>
                                     <div className="valueButton">
@@ -57,7 +57,7 @@ export default function UpContent() {
                     <div className="card-body card-content-up">
                         <div className='left-side-contents'>
                             <p className='banner'>Economy Bestseller</p>
-                            <img src="assests/images/logo-approved.png" alt="logo-approved" />
+                            <img className='pr-4 pt-2' src="assests/images/banner.png" alt="logo-approved" />
                         </div>
                         <div className='right-side-contents'>
                             <div className='right-side-contents-up'>
@@ -68,12 +68,12 @@ export default function UpContent() {
                             <div className='right-side-contents-down'>
                                 <div className='contents-up'>
                                     <img className="aprroved-img" src="assests/images/logo-approved.png" alt="logo-approved" />
-                                    <p className='pl-4'>205/55 R16 H<br/>SUV</p>
-                                    <div className='stock'>
+                                    <p className='pl-4 para'>205/55 R16 H<br/>SUV</p>
+                                    <div className='stock para'>
                                         <p className='pl-4'>Stock <span className='badge badge-pill badge-success'>✓</span></p>
                                         <p className='pt-1'>Price <strong>$ 340</strong></p>
                                     </div>
-                                    <p className='pl-4'> Total <strong>$ 1360</strong></p>
+                                    <p className='pl-4 para'> Total <strong>$ 1360</strong></p>
                                 </div>
                                 <div className='contents-down'>
                                     <div className="valueButton">
