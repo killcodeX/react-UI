@@ -213,6 +213,23 @@ button.load {
 }
 
 @media(max-width:480px){
+
+  /* menu  */
+
+  input.form-control {
+    width: 0px !important;
+  }
+
+  ul.navbar-right.navbar-nav {
+    flex-direction:row;
+  }
+
+  .search {
+    position: relative;
+    left: 20%;
+    transform: translateX(-20%);
+  }
+
   button.load {
     width:300px;
   }
