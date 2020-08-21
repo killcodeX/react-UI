@@ -42,7 +42,7 @@ export default function HomeBox(props) {
                 +
               </Button>
               <span className="value">{add}</span>
-              <Button className="cal-btn2" onClick={() => setAdd(add - 1)}>
+              <Button className="cal-btn2" onClick={() => add>1 ? setAdd(add - 1) : null}>
                 -
               </Button>
             </div>
