@@ -1,18 +1,9 @@
 import React, { useState } from "react";
 import { Col, Button } from "reactstrap";
 
+
 export default function HomeBox(props) {
   const [add, setAdd] = useState(props.value);
-
-  // const addition = () =>{
-  //     add = add + 1;
-  //     setAdd(add)
-  // }
-
-  const subs = () => {
-    add = add - 1;
-    setAdd(add);
-  };
 
   return (
     <React.Fragment>
